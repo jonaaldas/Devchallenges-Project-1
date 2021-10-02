@@ -151,9 +151,10 @@ line-height: 15px;
 
 .summary-number-1{
     flex:1;
-    font-weight: 600;
-font-size: 14px;
-line-height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
 
 }
 .summary-number-2{
@@ -169,3 +170,78 @@ line-height: 17px;
     margin: 50px 25px 0 25px;;
 }
 
+
+/* Form styles */
+
+.p-cont-1, .form-title-cont{
+    Width: 179.85px;
+    Height: 16.52px;
+    margin-top: 45px;
+    margin-bottom: 11px
+}
+
+
+.form-title{
+    margin:0;
+}
+
+
+.cont-form-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-1{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: inline-block;
+    Width: 136.83px;
+    Height: 11.27px;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.form-cont{
+    width: 349.25px;
+    height: 40.56px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon{
+    Width: 15px;
+    Height: 12.67px;
+    margin-left:11.5px;
+    margin-right: 12px;
+}
+
+input{
+    border-width:0px;
+    border:none;
+    width: 300.25px;
+    height: 30.56px;
+}
+
+#name{
+    font-weight: bold;
+    color: black;
+}
+
+/* small cont */
+.small-cont-1{
+    background-color: red;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.small-cont-form-1{
+    width: 162.98px;
+height: 40.56px;
+}
