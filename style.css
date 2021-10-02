@@ -1,0 +1,64 @@
+html{
+    margin:0;
+    border: border-box;
+}
+
+.checkout-cont{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 18px;
+    margin-top: 32px;
+}
+
+.checkout{
+    min-width: 120px;
+    font-size: 24px;
+    margin: 0;
+}
+
+.summary-cont{
+    min-width: 350px;
+    min-height: 489px;
+    display: flex ;
+    flex-direction: column 
+}
+
+.summary-items{
+    border: 2px solid green;
+    display: flex;
+    width: 289.92px;
+    height: 124.69px;
+}
+.summary-img-cont{
+    min-width: 160px;
+    min-height: 124px;
+}
+
+img{
+    height: 121px;
+    width: 120px;
+}
+
+.summary-item-name{
+    width: 148.65px;
+    height: 20.31px;
+    margin: 0;
+}
+
+.price{
+    display: flex;
+    width: 117.95x;
+    height: 42.42px;
+}
+
+.summary-number{
+    width: 122.8px;
+    height: 49.86px;
+}
+
+.summary-number-input{
+    width: 89px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+}
