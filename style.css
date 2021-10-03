@@ -5,12 +5,12 @@ html{
     font-weight: 600;
 }
 
-.main-cont{
+/* .main-cont{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-}
+} */
 
 .checkout-cont{
     display: flex;
@@ -297,6 +297,37 @@ button{
 @media (min-width:810px) {
     .main-cont{
         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .star-cont{
+        order:2;
+        /* width: 100% */
+    }
+
+    .start-cont-1{
+        width:603px;
+    }
+
+    .star-cont{
+        align-self: flex-start;
+    }
+
+    .form-cont{
+        width: 465px;
+        height: 56px;
+        
+
     }
     
+    .small-inputs{
+        width: 217px;
+        height: 56px;
+        justify-content: flex-start;
+    }
+
+    .checkout-cont{
+        width:900px;
+    }
 }
