@@ -14,123 +14,131 @@
     <title>Devchallenges</title>
   </head>
   <body>
-    <div class="checkout-cont">
-      <h1 class="checkout">Checkout</h1>
-    </div>
-    
-    <section class="summary-cont">
-      <div class="summary-items">
-        <div class="summary-img-cont">
-          <img src="/photo1.png" alt="" class="summary-img-item">
-        </div>
-        <div class="price-cont">
-          <p class="summary-item-name">Vintage Backbag</p>
-          <div class="price">
-            <p class="summary-item-new-price">$54.99</p>
-            <p class="summary-item-old-price">$94.99</p>
-          </div>
-          <div class="summary-number">
-            <div class="minus"><span>-</span></div>
-            <input class="summary-number-input" type="text" value="1"/>
-            <span class="plus">+</span>
-          </div>
-        </div>
+    <div class="main-cont">
+      <div class="checkout-cont">
+        <h1 class="checkout">Checkout</h1>
       </div>
-
-      <div class="summary-items">
-        <div class="summary-img-cont">
-          <img src="/photo2.png" alt="" class="summary-img-item">
-        </div>
-        <div class="price-cont">
-          <p class="summary-item-name">Vintage Backbag</p>
-          <div class="price">
-            <span class="summary-item-new-price">$74.99</span>
-            <span class="summary-item-old-price">$124.99</span>
+      
+      <section class="summary-cont">
+        <div class="summary-items">
+          <div class="summary-img-cont">
+            <img src="/photo1.png" alt="" class="summary-img-item">
           </div>
-          <div class="summary-number">
-            <span class="minus">-</span>
-            <input class="summary-number-input"type="text" value="1"/>
-            <span class="plus">+</span>
+          <div class="price-cont">
+            <p class="summary-item-name">Vintage Backbag</p>
+            <div class="price">
+              <p class="summary-item-new-price">$54.99</p>
+              <p class="summary-item-old-price">$94.99</p>
+            </div>
+            <div class="summary-number">
+              <div class="minus"><span>-</span></div>
+              <input class="summary-number-input" type="text" value="1"/>
+              <span class="plus">+</span>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="last-price-container">
-        <div class="summary-cont-1">
-          <p class="summary-number-1">Shipping</p>
-          <p class="summary-number-2">$19</p>
-        </div>
-        <div class="summary-cont-1">
-          <p class="summary-number-1">Total</p>
-          <p class="summary-number-2">$148.98</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="input-form-cont">
-      <div class="p-cont-1">
-        <p class="form-title">Contact Information</p>
-      </div>
-      <div class="cont-form-1">
-        <form class="form-1">
-          <label for="">Email</label><br>
-          <div class="form-cont">
-            <img class="icon"src="/envelope-solid.svg" alt="">
-            <input type="text" placeholder="Enter your email...">
+  
+        <div class="summary-items">
+          <div class="summary-img-cont">
+            <img src="/photo2.png" alt="" class="summary-img-item">
           </div>
-          <label for="">Phone</label><br>
+          <div class="price-cont">
+            <p class="summary-item-name">Vintage Backbag</p>
+            <div class="price">
+              <span class="summary-item-new-price">$74.99</span>
+              <span class="summary-item-old-price">$124.99</span>
+            </div>
+            <div class="summary-number">
+              <span class="minus">-</span>
+              <input class="summary-number-input"type="text" value="1"/>
+              <span class="plus">+</span>
+            </div>
+          </div>
+        </div>
+  
+        <div class="last-price-container">
+          <div class="summary-cont-1">
+            <p class="summary-number-1">Shipping</p>
+            <p class="summary-number-2">$19</p>
+          </div>
+          <div class="summary-cont-1">
+            <p class="summary-number-1">Total</p>
+            <p class="summary-number-2">$148.98</p>
+          </div>
+        </div>
+      </section>
+  
+      <section class="input-form-cont">
+        <div class="p-cont-1">
+          <p class="form-title">Contact Information</p>
+        </div>
+        <div class="cont-form-1">
+          <form class="form-1">
+            <label for="">Email</label><br>
+            <div class="form-cont">
+              <img class="icon"src="/envelope-solid.svg" alt="">
+              <input class="big-input" type="text" placeholder="Enter your email...">
+            </div>
+            <label for="">Phone</label><br>
+            <div class="form-cont">
+              <img class="icon" src="/envelope-solid.svg" alt="">
+              <input class="big-input" type="text" placeholder="Enter your phone...">
+            </div> 
+          </form>
+        </div>
+      </section>
+  
+      <section class="input-form-cont-2">
+        <div class="form-title-cont">
+          <p class="form-title">Shipping Address</p>
+        </div>
+        <form>
+          <label for="">Full Name</label>
           <div class="form-cont">
             <img class="icon" src="/envelope-solid.svg" alt="">
-            <input type="text" placeholder="Enter your phone...">
-          </div> 
+            <input class="big-input" id="name"type="text" placeholder="Rodney Cotton">
+          </div>
+  
+          <label for="">Address</label>
+          <div class="form-cont">
+            <img class="icon" src="/envelope-solid.svg" alt="">
+            <input class="big-input" type="text" placeholder="Your Address...">
+          </div>
+  
+          <label for="">City</label>
+          <div class="form-cont">
+            <img class="icon" src="/envelope-solid.svg" alt="">
+            <input class="big-input" type="text" placeholder="Your city...">
+          </div>
+        </form>
+      </section>
+
+      <div class="small-cont-1">
+        <form action="#">
+            <label for="">Country</label>
+          <div action="#" class="small-inputs small-inputs-1 ">
+            <img class="icon" src="/envelope-solid.svg" alt="">
+            <input id="small-cont-input" class="small-cont-input"type="text" placeholder="Your coountry...">
+            <select name="" id=""></select>
+          </div>
+        </form>
+        <form action="#">
+          <label for="">Country</label><br>
+          <div action="#" class="small-inputs small-inputs-2">
+            <img class="icon" src="/envelope-solid.svg" alt="">
+            <input class="small-cont-input"type="text" placeholder="Your postal code...">
+          </div>
         </form>
       </div>
-    </section>
-
-    <section class="input-form-cont-2">
-      <div class="form-title-cont">
-        <p class="form-title">Shipping Address</p>
-      </div>
-      <form>
-        <label for="">Full Name</label>
-        <div class="form-cont">
-          <img class="icon" src="/envelope-solid.svg" alt="">
-          <input id="name"type="text" placeholder="Rodney Cotton">
-        </div>
-
-        <label for="">Address</label>
-        <div class="form-cont">
-          <img class="icon" src="/envelope-solid.svg" alt="">
-          <input type="text" placeholder="Your Address...">
-        </div>
-
-        <label for="">City</label>
-        <div class="form-cont">
-          <img class="icon" src="/envelope-solid.svg" alt="">
-          <input type="text" placeholder="Your city...">
-        </div>
-      </form>
-    </section>
-
-    <div class="small-cont-1">
-        <label for="">Country</label><br>
-        <div class="small-cont-form-1">
-          <input type="text">
-          <select name="" id=""></select>
-        </div>
-
-        <label for="">Postal Code</label><br>
-        <div class="small-cont-form-1">
-          <input type="text" placeholder="Your postal code...">
-        </div>
     </div>
 
-    <input type="checkbox">
-    <label>Save this information for next time</label>
-    <button>Continue</button>
 
-
-
-
+    <div class="checkbox-">
+      <input type="checkbox">
+      <label>Save this information for next time</label>
+    </div>
+    <div class="button">
+      <button>Buttom</button>
+    </div>
   </body>
 </html>

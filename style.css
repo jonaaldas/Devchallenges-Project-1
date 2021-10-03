@@ -5,7 +5,7 @@ html{
     font-weight: 600;
 }
 
-body{
+.main-cont{
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -197,7 +197,6 @@ line-height: 15px;
 }
 
 label{
-    display: inline-block;
     Width: 136.83px;
     Height: 11.27px;
     font-size: 10px;
@@ -222,7 +221,7 @@ label{
     margin-right: 12px;
 }
 
-input{
+.big-input{
     border-width:0px;
     border:none;
     width: 300.25px;
@@ -236,12 +235,68 @@ input{
 
 /* small cont */
 .small-cont-1{
-    background-color: red;
     display: flex;
-    /* flex-direction: column; */
+}
+.small-inputs{
+    width: 162.98px;
+    height: 40.56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
 }
 
-.small-cont-form-1{
-    width: 162.98px;
-height: 40.56px;
+.small-inputs-1{
+    margin-right: 23px;
+}
+.small-inputs-2{
+    width: 153.98px;
+}
+.small-cont-input{
+    border: none;
+    width: 94px;
+}
+#small-cont-input{
+    border: none;
+    width: 90px;
+}
+
+select{
+    border: none;
+}
+
+
+/*  */
+
+.checkbox-{
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 166px;
+    height: 54px;
+    background: #F2994A;
+    border-radius: 12px;
+    border: none;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 14px;
+    width: 375px;
+}
+
+@media (min-width:810px) {
+    .main-cont{
+        display: flex;
+    }
+    
 }
